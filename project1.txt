@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+<head>
+<title>my webpage</title>
+</head>
+<body>
+<h1 align="center">INTERSHIP FORM</h1>
+<form method="post" action="secondwebpage2.html">
+<p>Enter your name:</p>
+<input type="text" name="name"/>
+<p> Enter tour email</p>
+<input type="email" name="email"/>
+<p> Enter your password:</p>
+<input type="password" name="password"/>
+<p> Enter your age</p>
+<input type="number" name="age"/>
+<p> Gender</p>
+<label for="gender">gender:</label>
+<input type="radio" name="male" value="male"/>male 
+<input type="radio" name="female" value="male"/>female 
+<p>About yourself</p>
+<textarea rows="2" cols="20" name="description">
+</textarea>
+<p>Which programming languages should you know</p>
+<input type="checkbox" name="c" value="on"/>c <br/>
+<input type="checkbox" name="C++" value="on"/>C++ <br/>
+<input type="checkbox" name="java" value="on"/>java <br/>
+<input type="checkbox" name="python" value="on"/>python <br/>
+<input type="checkbox" name="JavaScript" value="on"/>JavaScript <br/>
+<p>How many months you want to patriciate in our internship program?</p>
+<select name="dropdown">
+<option value="3 months">3months</option>
+<option value="6 months">6months</option>
+<option value="9 months">9months</option>
+<option value="1 year">1year</option>
+</select>
+<p>Upload your resume</p>
+<input type="file" name="file upload" accept="document/*"/>
+<p></p>
+<a href="secondwebpage2.html"> <input type="button" name="submit" value="submit"/></a>
+<br/>
+</form>
+</body>
+</html>
